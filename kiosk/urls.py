@@ -22,5 +22,5 @@ from kiosk_cafe import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('kiosk_cafe', include("kiosk_cafe.urls")), 
+    path('kiosk_cafe/', include("kiosk_cafe.urls")), 
 ]

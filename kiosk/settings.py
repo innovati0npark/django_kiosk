@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'kiosk_cafe.apps.KioskCafeConfig'
+    'kiosk_cafe.apps.KioskCafeConfig',
 ]
 
 MIDDLEWARE = [
