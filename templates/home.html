@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %} Innovation CAFE {% endblock %}
+
+{% block content %}
+
+{% block extra-style %}
+<style type="text/css">
+    .home-image {
+        background-image: url("{% static 'img/robot5.jpg' %}");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50%;
+        height: 750px;
+        border-top: 100px solid #000000;
+        border-bottom: 100px solid #a8a5a5;
+        padding: 10px 0 0 10px;
+    }
+    .title {
+        color: rgb(197, 150, 55);
+        font-weight: bold;
+    }
+    .powered {
+        position: relative;
+        top: 77%;
+        color: rgb(202, 72, 72);
+        font-style: italic;
+    }
+    </style>
+
+{% endblock %}
+    <div class="home-image">
+        <h2 class="title">Robotics is our future</h2>
+    </div>
+<dir>
+    <div class="row">
+    <div class="col-sm-6 text-center">
+        <h3>Golden Rule with Robot</h3>
+        <p>
+           We will act Golden Rule with <br>
+           MATTHEW(7:12) So in everything, do to others what you would have them do to you, for this sums up the Law and the Prophets.
+        
+        </p>
+    </div>
+    <div class="col-sm-6 text-center">
+        <h3>Help human</h3>
+        <p>
+            We will be helping human with love.
+        </p>
+    </div>
+    </div>
+</dir>
+{% endblock %}
